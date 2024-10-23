@@ -29,7 +29,7 @@ resource azurerm_key_vault_access_policy "cert_kv_policy1" {
     "Create","Delete","DeleteIssuers",
     "Get","GetIssuers","Import","List",
     "ListIssuers","ManageContacts","ManageIssuers",
-    "SetIssuers","Update",
+    "SetIssuers","Update","Backup","Purge","Recover","Restore"
   ]
 
   key_permissions = [
